@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barman", "Barman.csproj", "{F79B812E-5112-4DDA-A47C-5F2736250D60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F79B812E-5112-4DDA-A47C-5F2736250D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79B812E-5112-4DDA-A47C-5F2736250D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79B812E-5112-4DDA-A47C-5F2736250D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79B812E-5112-4DDA-A47C-5F2736250D60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59758174-65F2-4C6B-8CBE-2F94564510C3}
+	EndGlobalSection
+EndGlobal
