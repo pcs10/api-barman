@@ -5,9 +5,9 @@ namespace Barman.Interfaces
     public interface IDrinkRepository
     {
         Task<IEnumerable<Drink>> BuscarTodos();
-        //Task<string> Inserir(Usuario usuario);
-        //Task<string> Alterar(Usuario usuario, int id);
-        //Task<Usuario> BuscarPorId(int id);
-        //Task<string> Excluir(int id);
+        Task<string> Inserir(Drink drink);
+        Task<string> Alterar(Drink drinkModel, int id);
+        Task<Drink> BuscarPorId(int id);
+        Task<string> Excluir(int id);
     }
 }
