@@ -16,5 +16,10 @@ namespace Barman.Models
         public decimal? Preco { get; set; }
 
         //public IList<string> Ingredientes { get; set; }
+
+        public Drink(string nome)
+        {
+            Nome = nome;
+        }
     }
 }

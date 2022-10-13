@@ -9,6 +9,7 @@ namespace Barman.Data
 
         //Referenciando models a tabelas do banco
         public DbSet<Drink> Drinks { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
     }
 }

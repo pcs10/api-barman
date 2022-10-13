@@ -1,10 +1,12 @@
 ﻿using Barman.Interfaces;
 using Barman.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Barman.Controllers
 {
 
+    [Authorize]
     [ApiController]
     [Route("v1/drinks")]
     public class DrinkController : ControllerBase
